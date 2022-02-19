@@ -463,7 +463,9 @@ t .idc-text-2 {
     right: 0;
 }
 
-/* **************slider************/
+/* **************slider************/.idc-slider .idc-container{
+    height: 250px;
+}
 .idc-swiper-2 .swiper-slide {
     width: 400px;
     transform: translateX(25%);
