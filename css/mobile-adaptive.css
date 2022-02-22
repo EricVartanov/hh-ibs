@@ -1,26 +1,705 @@
+
+
 @media (max-width: 1339px) {
     .idc-section {
         max-width: 100%;
         min-width: 100%;
     }
-    .idc-container{
+    .idc-container {
         max-width: 930px;
     }
-}
- 
 
+    /* *************head************ */
+
+    .idc-head {
+        max-height: 475px;
+        height: 37.5vw;
+    }
+    .idc-head .idc-title-h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .idc-head .idc-text-2 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .idc-head .idc-gallery {
+        max-width: 515px;
+        width: 40.5vw;
+    }
+    .idc-head .idc-container {
+        left: 50%;
+        top: 0;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+    .idc-head .idc-logo {
+        width: 60px;
+        height: 60px;
+    }
+    .idc-head-content {
+        width: 585px;
+        padding-left: 30px;
+    }
+    .idc-vector-up,
+    .idc-vector-down {
+        width: 40px;
+        height: 40px;
+    }
+    .idc-head .idc-text-block {
+        margin-left: 20px;
+        max-width: 540px;
+        margin-top: 20px;
+        padding: 2vw 0 2vw 30px;
+    }
+
+    .idc-head .idc-text-2 {
+        margin-top: 20px;
+    }
+    .idc-button-wrapper {
+        margin-left: 50px;
+        margin-top: 2.73vw;
+    }
+    .idc-button {
+        padding: 14px 48px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-head .idc-bg-item1 {
+        width: 252px;
+    }
+    .idc-head .idc-bg-item2 {
+        width: 218px;
+    }
+    .idc-head .idc-img-m {
+        margin-left: 5px;
+    }
+    /* *************about************ */
+
+    .idc-about .idc-item {
+        margin-left: 10px;
+    }
+
+    .idc-item-1 .idc-tooltip,
+    .idc-item-2 .idc-tooltip,
+    .idc-item-3 .idc-tooltip,
+    .idc-item-4 .idc-tooltip,
+    .idc-item-5 .idc-tooltip   {
+        width: 100%;
+        right: unset;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+    .idc-item-1 .idc-tooltip::before {
+        left: 7%;
+    }
+    .idc-item-2 .idc-tooltip::before {
+        left: 28%;
+    }
+    .idc-item-3 .idc-tooltip::before {
+        left: 49%;
+    }
+    .idc-item-4 .idc-tooltip::before {
+        right: 27%;
+    }
+    .idc-item-5 .idc-tooltip::before {
+        right: 7%;
+    }
+    /* *************geo************ */
+
+    .idc-geo {
+        margin-top: 0;
+    }
+    .idc-geo .idc-container {
+        padding-top: 140px;
+        padding-bottom: 255px;
+    }
+    .idc-geo .idc-bg-wrapper {
+        background-size: 52%;
+        background-position: right bottom;
+    }
+    .idc-geo .idc-text-block .idc-text-2:last-child {
+        max-width: 470px;
+    }
+
+    /* *****pluses**** */
+    .idc-pluses .idc-container {
+        padding-top: 140px;
+    }
+
+    .idc-pluse {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .idc-pluse__info,
+    .idc-pluse:nth-child(2n) .idc-pluse__info {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+        max-width: unset;
+        width: 100%;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        height: auto;
+    }
+
+    /* *****start**** */
+
+    .idc-start .idc-container {
+        padding-bottom: 50px;
+    }
+    .idc-swiper-1 .swiper-slide {
+        visibility: hidden;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .idc-start .idc-swiper-img {
+        position: relative;
+        right: unset;
+        top: unset;
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+        width: 277px;
+        margin-left: 25px;
+    }
+    .idc-start-swiper {
+        margin-top: 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /* *****slider**** */
+}
 
 @media (max-width: 1019px) {
-    
-    .idc-container{
-        max-width: 530px;
+    .idc-container {
+        max-width: 610px;
+    }
+    .idc-title-h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .idc-title-h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .idc-title-h3 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-text-1,
+    .idc-text-2,
+    .idc-text-3 {
+        font-size: 14px;
+        line-height: 16px;
+        /* font-size: 1.8vw; */
+        /* line-height: 2.1vw; */
+    }
+
+    .idc-text-3tt {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /* *****head**** */
+    .idc-head {
+        max-height: unset;
+        height: 1165px;
+        overflow: hidden;
+    }
+    .idc-head .idc-bg-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        height: auto;
+    }
+    .idc-blue-bg {
+        height: 524px;
+        -webkit-box-flex: 0;
+            -ms-flex: none;
+                flex: none;
+        width: 100%;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    }
+    .idc-head .idc-container {
+        height: auto;
+        padding: 0;
+        margin: 0;
+        padding-top: 35px;
+    }
+    .idc-head .idc-gallery {
+        max-width: unset;
+        width: 100%;
+    }
+    .idc-head-content {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .idc-head .idc-text-block {
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 40px;
+        max-width: unset;
+        width: 100%;
+    }
+    .idc-head .idc-bg-item1 {
+        margin-top: 30px;
+    }
+    .idc-button-wrapper {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .idc-head .idc-img-s {
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        width: 44.8vw;
+    }
+    .idc-head .idc-img-m {
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        width: 56.4vw;
+        margin-left: 10px;
+    }
+    .idc-head .idc-img-l {
+        margin-top: 10px;
+    }
+    .idc-gallery img {
+        display: none;
+    }
+    .idc-img-s,
+    .idc-img-m,
+    .idc-img-l {
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .idc-img-m,
+    .idc-img-s {
+        height: 230px;
+    }
+    .idc-img-l {
+        height: 400px;
+    }
+
+    /* *****about***** */
+    .idc-about .idc-container {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    .idc-about .idc-item {
+        width: calc(50% - 35px);
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin-top: 40px;
+    }
+    .idc-about .idc-item:nth-child(2n) {
+        margin-left: auto;
+    }
+    .idc-about .idc-item:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .idc-item .idc-text-1 {
+        margin-top: 0;
+        margin-left: 15px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-tooltip {
+        display: none;
+    }
+    .idc-about .idc-item:hover .idc-text-1 {
+        color: #184188;
+    }
+    .idc-about .idc-item:hover .idc-about-icon path {
+        fill: #184188;
+    }
+
+    /* *****geo***** */
+
+    .idc-geo .idc-container {
+        padding-top: 100px;
+        padding-bottom: 0;
+        height: 84.1vw;
+    }
+    .idc-geo .idc-title-h1 + .idc-text-2 {
+        margin-top: 35px;
+    }
+    .idc-geo .idc-text-2 + .idc-text-2 {
+        margin-top: 10px;
+    }
+    /* ***pluses**** */
+    .idc-pluses .idc-container {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    .idc-pluses .idc-title-h1 + .idc-text-2 {
+        margin-top: 20px;
+    }
+    .idc-pluse:first-child {
+        margin-top: 45px;
+    }
+    .idc-pluse__img {
+        width: 100%;
+    }
+    .idc-pluse__info .idc-text-3 {
+        margin-top: 15px;
+    }
+
+    /* ***start**** */
+    .idc-start .idc-container {
+        padding-bottom: 210px;
+    }
+    .idc-start .idc-text-2 {
+        margin-top: 20px;
+        max-width: 70vw;
+    }
+    .idc-start-swiper {
+        overflow-x: clip;
+        margin-top: 40px;
+        height: 445px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .idc-start-swiper .idc-bg-wrapper {
+        /* background: #ffffff; */
+        background: -o-linear-gradient(333.76deg, #184188 0%, #2d91c9 100%);
+        background: linear-gradient(116.24deg, #184188 0%, #2d91c9 100%);
+    }
+
+    .idc-swiper-1 .swiper {
+        height: 544px;
+    }
+    .idc-start .idc-swiper-img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+        height: 392px;
+    }
+    .idc-swiper-button-prev,
+    .idc-swiper-button-next {
+        display: none;
+    }
+    .idc-swiper-1 .swiper-slide {
+        height: 100%;
+    }
+    .idc-start .idc-title-h3,
+    .idc-start .idc-text-3 {
+        max-width: unset;
+    }
+    .idc-swiper-pagination-1,
+    .idc-swiper-pagination-1
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .idc-swiper-pagination-2,
+    .idc-swiper-pagination-2
+        .swiper-pagination-bullets.swiper-pagination-horizontalб
+        .idc-swiper-pagination-3
+        .swiper-pagination-bullets.swiper-pagination-horizontal {
+        display: block;
+    }
+
+    /* ***slider**** */
+    .idc-swiper-2 {
+        max-width: 610px;
+    }
+    .idc-slider .idc-container {
+        height: 225px;
+    }
+    .idc-swiper-2 .swiper-slide {
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0);
+    }
+    .idc-swiper-pagination-2 .swiper-horizontal > .swiper-pagination-bullets,
+    .idc-swiper-pagination-2.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        position: relative;
+        margin-top: 15px;
+        bottom: unset;
+    }
+
+    /* ***footer**** */
+
+    .idc-footer .idc-container {
+        padding-top: 105px;
+    }
+    .idc-footer .idc-title-h1 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-link-wrapper {
+        margin-top: 5px;
+    }
+    .idc-link {
+        font-size: 25px;
+        line-height: 29px;
     }
 }
 
 @media (max-width: 699px) {
-    .idc-container{
+    .idc-container {
         max-width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .idc-title-h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .idc-title-h2 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-title-h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .idc-text-1 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .idc-text-2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* ****head**** */
+    .idc-head {
+        height: auto;
+    }
+    .idc-head .idc-container {
+        position: relative;
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+    .idc-head .idc-bg-item1 {
+        /* width: 136px; */
+        width: 42.5vw;
+    }
+    .idc-head .idc-text-block {
+        margin-top: 30px;
+        padding: 30px;
+        padding-left: 20px;
+        padding-right: 25px;
+    }
+    .idc-head .idc-title-h2 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-vector-up,
+    .idc-vector-down {
+        width: 30px;
+        height: 30px;
+    }
+    .idc-head .idc-text-2 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 25px;
+    }
+    .idc-button {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 11px 34px;
+    }
+    .idc-button-wrapper {
+        margin-left: 20px;
+    }
+    .idc-blue-bg {
+        height: 478px;
+    }
+    .idc-head .idc-gallery {
+        display: none;
+    }
+    .idc-head .idc-bg-item2 {
+        display: none;
+    }
+    .idc-swiper-mobile {
+        display: block;
+    }
+
+    /* ****mobile**** */
+    .idc-mobile {
+        position: relative;
+        margin-top: 5px;
+    }
+    .idc-mobile .idc-bg-wrapper {
+        z-index: 1;
+    }
+    .idc-mobile .idc-container {
+        /* height: 292px; */
+        height: 91.4vw;
+        z-index: 0;
+        position: relative;
+    }
+    .idc-swiper-mobile {
+        /* height: 182px; */
+        height: 57vw;
+    }
+    .idc-swiper-mobile .swiper-slide {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+    .idc-swiper-pagination-3,
+    .idc-swiper-pagination-3
+        .swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-top: 10px;
+        text-align: center;
+    }
+    /* ****mobile**** */
+    .idc-about {
+        margin-top: 0;
+    }
+    .idc-about .idc-container {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .idc-items-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .idc-about .idc-item {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /* **************geo************ */
+    .idc-geo .idc-container {
+        padding-top: 80px;
+        height: 672px;
+    }
+    .idc-geo .idc-bg-wrapper {
+        background-size: 133%;
+        background-position: left bottom 8%;
+    }
+    .idc-geo .idc-text-block {
+        max-width: 517px;
+    }
+    .idc-geo .idc-text-block .idc-text-2:last-child {
+        max-width: 473px;
+    }
+    .idc-geo .idc-title-h1 + .idc-text-2 {
+        margin-top: 50px;
+    }
+    .idc-geo .idc-text-2 + .idc-text-2 {
+        margin-top: 10px;
+    }
+    .idc-geo .idc-title-h1 + .idc-text-2 {
+        margin-top: 30px;
+    }
+    /* **************pluses************ */
+    .idc-pluses .idc-container {
+        padding-bottom: 80px;
+    }
+    .idc-pluses .idc-title-h1 + .idc-text-2 {
+        margin-top: 30px;
+    }
+    .idc-pluse:first-child {
+        margin-top: 40px;
+    }
+    .idc-pluse__info,
+    .idc-pluse:nth-child(2n) .idc-pluse__info {
+        padding: 30px 20px;
+    }
+    .idc-pluse {
+        margin-top: 20px;
+    }
+
+    /* ******start**** */
+    .idc-start .idc-container {
+        padding-bottom: 65px;
+    }
+    .idc-start .idc-text-2 {
+        max-width: unset;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .idc-start-swiper .idc-bg-wrapper {
+        height: 302px;
+    }
+    .idc-start-swiper {
+        margin-top: 50px;
+        padding-top: 20px;
+        height: auto;
+    }
+    .idc-start .idc-title-h3 + .idc-text-3 {
+        margin-top: 10px;
+    }
+    .idc-start .idc-swiper-img {
+        margin-top: 60px;
+        height: auto;
+    }
+    .idc-swiper-1 {
+        position: relative;
+    }
+    .idc-swiper-1 .swiper-slide {
+        height: 100%;
+    }
+    .idc-swiper-pagination-1
+        > .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .idc-swiper-pagination-1 {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -25px;
+    }
+
+    /* ******slider**** */
+
+    .idc-slider .idc-bg-wrapper {
+        /* margin: 0 15px; */
+        padding: 0 15px;
+    }
+    .idc-slider .idc-container {
+        height: 67.5vw;
+    }
+    .idc-swiper-pagination-2 .swiper-horizontal > .swiper-pagination-bullets,
+    .idc-swiper-pagination-2.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        position: relative;
+        margin-top: 15px;
+        bottom: unset;
+    }
+    .idc-footer .idc-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .idc-footer .idc-title-h1,
+    .idc-link {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .idc-age{
+        font-size: 14px;
+        line-height: 16px;
     }
 }

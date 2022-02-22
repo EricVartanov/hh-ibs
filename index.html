@@ -17,18 +17,22 @@
 <body>
     <main class="idc-main">
         <section class="idc-head idc-section">
-            <div class="idc-bg-wrapper">
+            <div class="idc-bg-wrapper idc-flex">
                 <div class="idc-gallery idc-flex">
-                    <div class="idc-img-s">
-                        <img src="img/head/img1.png" alt="/">
+                    <div class="idc-gallery-top idc-flex">
+                        <div class="idc-img-s" style="background-image: url(img/head/img1.png);">
+                            <img src="img/head/img1.png" alt="/">
+                        </div>
+                        <div class="idc-img-m" style="background-image: url(img/head/img2.png);">
+                            <img src="img/head/img2.png" alt="/">
+                        </div>
                     </div>
-                    <div class="idc-img-m">
-                        <img src="img/head/img2.png" alt="/">
-                    </div>
-                    <div class="idc-img-l">
+
+                    <div class="idc-img-l" style="background-image: url(img/head/img3.png);">
                         <img src="img/head/img3.png" alt="/">
                     </div>
                 </div>
+                <div class="idc-blue-bg"></div>
                 <div class="idc-bg-item1">
                     <img src="img/head/union.svg" alt="/">
                 </div>
@@ -36,7 +40,7 @@
                     <img src="img/head/union2.svg" alt="/">
                 </div>
             </div>
-            <div class="idc-container">
+            <div class="idc-container idc-flex">
                 <div class="idc-head-content">
                     <div class="idc-logo">
                         <img src="img/logo.svg" alt="/">
@@ -57,11 +61,28 @@
                     <div class="idc-button-wrapper">
                         <a class="idc-button" href="/">Вакансии</a>
                     </div>
+
                 </div>
+            </div>
 
             </div>
         </section>
-
+        <section class="idc-mobile">
+            <div class="idc-bg-wrapper" style="background: #ffffff;">
+                <div class="idc-swiper-mobile swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide" style="background-image: url(img/head/img1.png);"></div>
+                        <div class="swiper-slide" style="background-image: url(img/head/img2.png);"></div>
+                        <div class="swiper-slide" style="background-image: url(img/head/img3.png);"></div>
+                    </div>
+                </div>
+                <div class="idc-swiper-pagination-3"></div>
+            </div>
+            <div class="idc-container">
+            </div>
+        </section>
 
         <section class="idc-about idc-section">
             <div class="idc-bg-wrapper" style="background: #EEF1F7;"></div>
@@ -90,7 +111,8 @@
                         </div>
                         <p class="idc-text-1">Команда</p>
                         <div class="idc-tooltip">
-                            <p class="idc-text-3tt">IBS — одна из лучших IT-команд в России, объединяющая архитекторов, аналитиков, консультантов, инженеров и программистов</p>
+                            <p class="idc-text-3tt">IBS — одна из лучших IT-команд в России, объединяющая архитекторов,
+                                аналитиков, консультантов, инженеров и программистов</p>
                         </div>
                     </div>
                     <div class="idc-item idc-item-2 idc-flex">
@@ -106,7 +128,9 @@
                         </div>
                         <p class="idc-text-1">Опыт</p>
                         <div class="idc-tooltip">
-                            <p class="idc-text-3tt">29 лет мы развиваем технологии в России и создаем решения, которыми пользуются миллионы людей. На нашем счету — тысячи проектов для крупнейших компаний страны и государственных структур. Мы — одна из первых IT-компаний России</p>
+                            <p class="idc-text-3tt">29 лет мы развиваем технологии в России и создаем решения, которыми
+                                пользуются миллионы людей. На нашем счету — тысячи проектов для крупнейших компаний
+                                страны и государственных структур. Мы — одна из первых IT-компаний России</p>
                         </div>
                     </div>
                     <div class="idc-item idc-item-3 idc-flex">
@@ -124,7 +148,9 @@
                         </div>
                         <p class="idc-text-1">Экспертиза</p>
                         <div class="idc-tooltip">
-                            <p class="idc-text-3tt">IBS обладает уникальной обширной экспертизой в разработке, бизнес-консалтинге, системной интеграции, аутсорсинге сервисов, тестировании, аналитике, информационной безопасности и построении IT-инфраструктуры</p>
+                            <p class="idc-text-3tt">IBS обладает уникальной обширной экспертизой в разработке,
+                                бизнес-консалтинге, системной интеграции, аутсорсинге сервисов, тестировании, аналитике,
+                                информационной безопасности и построении IT-инфраструктуры</p>
                         </div>
                     </div>
                     <div class="idc-item idc-item-4 idc-flex">
@@ -144,7 +170,8 @@
                         </div>
                         <p class="idc-text-1">Стабильность</p>
                         <div class="idc-tooltip">
-                            <p class="idc-text-3tt">Сохраняем лидирующие позиции на рынке и заботимся о комфортных условиях для каждого сотрудниках</p>
+                            <p class="idc-text-3tt">Сохраняем лидирующие позиции на рынке и заботимся о комфортных
+                                условиях для каждого сотрудниках</p>
                         </div>
                     </div>
                     <div class="idc-item idc-item-5 idc-flex">
@@ -168,7 +195,8 @@
                         </div>
                         <p class="idc-text-1">Развитие</p>
                         <div class="idc-tooltip">
-                            <p class="idc-text-3tt">Сохраняем лидирующие позиции на рынке и заботимся о комфортных условиях для каждого сотрудниках</p>
+                            <p class="idc-text-3tt">Сохраняем лидирующие позиции на рынке и заботимся о комфортных
+                                условиях для каждого сотрудниках</p>
                         </div>
                     </div>
                 </div>
@@ -199,7 +227,7 @@
                     сферах. При этом мы предлагаем быть не только пассивными слушателями, но и инициаторами, экспертами,
                     готовыми предложить свою тему, идею для мероприятия и поделиться знаниями с коллегами.</p>
                 <div class="idc-pluses-block">
-                    <div class="idc-pluse">
+                    <div class="idc-pluse idc-flex">
                         <div class="idc-pluse__img">
                             <img src="img/pluses/img1.png" alt="/">
                         </div>
@@ -211,7 +239,7 @@
                                 пространствах, скрайбинг, кинематограф пандемии, психология и многое другое</p>
                         </div>
                     </div>
-                    <div class="idc-pluse">
+                    <div class="idc-pluse idc-flex">
                         <div class="idc-pluse__img">
                             <img src="img/pluses/img2.png" alt="/">
                         </div>
@@ -221,7 +249,7 @@
                                 бумажных книг для сотрудников на самые разные темы</p>
                         </div>
                     </div>
-                    <div class="idc-pluse">
+                    <div class="idc-pluse idc-flex">
                         <div class="idc-pluse__img">
                             <img src="img/pluses/img3.png" alt="/">
                         </div>
@@ -232,7 +260,7 @@
                                 “Среда развития” помогут подобрать и найти нужное</p>
                         </div>
                     </div>
-                    <div class="idc-pluse">
+                    <div class="idc-pluse idc-flex">
                         <div class="idc-pluse__img">
                             <img src="img/pluses/img4.png" alt="/">
                         </div>
@@ -249,19 +277,20 @@
 
 
         <section class="idc-start idc-section">
-            <div class="idc-bg-wrapper" style="background: #ffffff;"></div>
+            <div class="idc-bg-wrapper" style="background: #ffffff;">
+            </div>
             <div class="idc-container">
                 <h1 class="idc-title-h1">Старт карьеры</h1>
                 <p class="idc-text-2">Чтобы присоединиться к команде IBS, не обязательно иметь большой опыт в IT. Мы
                     помогаем молодым талантам расти и развиваться</p>
                 <div class="idc-start-swiper">
-                    <div class="idc-bg-wrapper"
-                        style="background: linear-gradient(116.24deg, #184188 0%, #2D91C9 100%);"></div>
+                    <div class="idc-bg-wrapper">
+                    </div>
                     <div class="idc-swiper-1 swiper">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide">
+                            <div class="swiper-slide idc-flex">
                                 <div class="idc-text-block">
                                     <h3 class="idc-title-h3">Участие в реальных проектах</h3>
                                     <p class="idc-text-3">Разбирая архивы документов, ничему не научишься. Наши
@@ -272,7 +301,7 @@
                                     <img src="img/start/img1.png" alt="/">
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide idc-flex">
                                 <div class="idc-text-block">
                                     <h3 class="idc-title-h3">Дружная команда</h3>
                                     <p class="idc-text-3">В IBS не бывает скучно! Здесь легко найти коллег,
@@ -282,7 +311,7 @@
                                     <img src="img/start/img2.png" alt="/">
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide idc-flex">
                                 <div class="idc-text-block">
                                     <h3 class="idc-title-h3">Профессиональные наставники</h3>
                                     <p class="idc-text-3">Эксперты IBS научат эффективно работать и поделятся опытом
@@ -292,7 +321,7 @@
                                     <img src="img/start/img3.png" alt="/">
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide idc-flex">
                                 <div class="idc-text-block">
                                     <h3 class="idc-title-h3">Возможность выбора</h3>
                                     <p class="idc-text-3">В рамках программы стажировки можно попробовать себя в
@@ -304,6 +333,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="idc-swiper-pagination-1"></div>
                     </div>
 
                     <!-- If we need navigation buttons -->
@@ -314,7 +344,7 @@
                         <img src="img/icons/right-btn.svg" alt="/">
                     </div>
                     <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
+
                 </div>
             </div>
         </section>
@@ -335,10 +365,10 @@
                         <div class="swiper-slide"><img class="idc-slider-img" src="img/slider/img8.png" alt="/"></div>
                         <div class="swiper-slide"><img class="idc-slider-img" src="img/slider/img9.png" alt="/"></div>
                         <div class="swiper-slide"><img class="idc-slider-img" src="img/slider/img10.png" alt="/"></div>
-
                     </div>
+                    <div class="idc-swiper-pagination-2"></div>
+
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
             <div class="idc-container">
 
@@ -348,11 +378,11 @@
         <section class="idc-footer idc-section">
             <div class="idc-bg-wrapper" style="background: #ffffff;"></div>
             <div class="idc-container">
-<h1 class="idc-title-h1">Присоединяйся к нашей команде!</h1>
-<div class="idc-link-wrapper">
-    <a class="idc-link" href="https://ibs.ru/">ibs.ru</a>
-    <span class="idc-age">6+</span>
-</div>
+                <h1 class="idc-title-h1">Присоединяйся к нашей команде!</h1>
+                <div class="idc-link-wrapper">
+                    <a class="idc-link" href="https://ibs.ru/">ibs.ru</a>
+                    <span class="idc-age">6+</span>
+                </div>
             </div>
         </section>
 
