@@ -5,9 +5,9 @@ const swiper1 = new Swiper(".idc-swiper-1", {
     direction: "horizontal",
     // Responsive breakpoints
 
-    autoplay: {
-        delay: 5000,
-    },
+    // autoplay: {
+    //     delay: 5000,
+    // },
     pagination: {
         el: ".idc-swiper-pagination-1",
         clickable: true,
@@ -29,7 +29,6 @@ const swiper2 = new Swiper(".idc-swiper-2", {
     direction: "horizontal",
     // Responsive breakpoints
     breakpoints: {
-        
         700: {
             slidesPerView: 2,
             spaceBetween: 10,
@@ -65,6 +64,4 @@ const swiperMobile = new Swiper(".idc-swiper-mobile", {
         clickable: true,
         type: "bullets",
     },
-
- 
 });
